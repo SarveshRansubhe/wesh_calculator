@@ -70,6 +70,7 @@
             SevenBtn.TabIndex = 1;
             SevenBtn.Text = "7";
             SevenBtn.UseVisualStyleBackColor = true;
+            SevenBtn.Click += SevenBtn_Click;
             // 
             // FourBtn
             // 
@@ -80,6 +81,7 @@
             FourBtn.TabIndex = 2;
             FourBtn.Text = "4";
             FourBtn.UseVisualStyleBackColor = true;
+            FourBtn.Click += FourBtn_Click;
             // 
             // ZeroBtn
             // 
@@ -112,6 +114,7 @@
             TwoBtn.TabIndex = 7;
             TwoBtn.Text = "2";
             TwoBtn.UseVisualStyleBackColor = true;
+            TwoBtn.Click += TwoBtn_Click;
             // 
             // FiveBtn
             // 
@@ -122,6 +125,7 @@
             FiveBtn.TabIndex = 6;
             FiveBtn.Text = "5";
             FiveBtn.UseVisualStyleBackColor = true;
+            FiveBtn.Click += FiveBtn_Click;
             // 
             // EightBtn
             // 
@@ -132,6 +136,7 @@
             EightBtn.TabIndex = 5;
             EightBtn.Text = "8";
             EightBtn.UseVisualStyleBackColor = true;
+            EightBtn.Click += EightBtn_Click;
             // 
             // EqualBtn
             // 
@@ -152,6 +157,7 @@
             ThreeBtn.TabIndex = 11;
             ThreeBtn.Text = "3";
             ThreeBtn.UseVisualStyleBackColor = true;
+            ThreeBtn.Click += ThreeBtn_Click;
             // 
             // SixBtn
             // 
@@ -162,6 +168,7 @@
             SixBtn.TabIndex = 10;
             SixBtn.Text = "6";
             SixBtn.UseVisualStyleBackColor = true;
+            SixBtn.Click += SixBtn_Click;
             // 
             // NineBtn
             // 
@@ -172,6 +179,7 @@
             NineBtn.TabIndex = 9;
             NineBtn.Text = "9";
             NineBtn.UseVisualStyleBackColor = true;
+            NineBtn.Click += NineBtn_Click;
             // 
             // PercentageBtn
             // 

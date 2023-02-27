@@ -125,6 +125,5 @@ namespace wesh_calculator
                 ResultBox.Text += ".";
             }
         }
-
     }
 }
