@@ -56,9 +56,10 @@
             ResultBox.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point);
             ResultBox.Location = new Point(19, 12);
             ResultBox.Name = "ResultBox";
+            ResultBox.ReadOnly = true;
             ResultBox.Size = new Size(581, 50);
             ResultBox.TabIndex = 0;
-            ResultBox.Text = "3";
+            ResultBox.Text = "0";
             ResultBox.TextAlign = HorizontalAlignment.Right;
             // 
             // SevenBtn
@@ -147,6 +148,7 @@
             EqualBtn.TabIndex = 12;
             EqualBtn.Text = "=";
             EqualBtn.UseVisualStyleBackColor = true;
+            EqualBtn.Click += EqualBtn_Click;
             // 
             // ThreeBtn
             // 
@@ -190,6 +192,7 @@
             PercentageBtn.TabIndex = 16;
             PercentageBtn.Text = "%";
             PercentageBtn.UseVisualStyleBackColor = true;
+            PercentageBtn.Click += PercentageBtn_Click;
             // 
             // MultiplyBtn
             // 
@@ -200,6 +203,7 @@
             MultiplyBtn.TabIndex = 15;
             MultiplyBtn.Text = "x";
             MultiplyBtn.UseVisualStyleBackColor = true;
+            MultiplyBtn.Click += MultiplyBtn_Click;
             // 
             // PlusBtn
             // 
@@ -210,6 +214,7 @@
             PlusBtn.TabIndex = 14;
             PlusBtn.Text = "+";
             PlusBtn.UseVisualStyleBackColor = true;
+            PlusBtn.Click += PlusBtn_Click;
             // 
             // PlusMinusBtn
             // 
@@ -220,6 +225,7 @@
             PlusMinusBtn.TabIndex = 20;
             PlusMinusBtn.Text = "+/-";
             PlusMinusBtn.UseVisualStyleBackColor = true;
+            PlusMinusBtn.Click += PlusMinusBtn_Click;
             // 
             // DivideBtn
             // 
@@ -230,6 +236,7 @@
             DivideBtn.TabIndex = 19;
             DivideBtn.Text = "/";
             DivideBtn.UseVisualStyleBackColor = true;
+            DivideBtn.Click += DivideBtn_Click;
             // 
             // MinusBtn
             // 
@@ -240,6 +247,7 @@
             MinusBtn.TabIndex = 18;
             MinusBtn.Text = "-";
             MinusBtn.UseVisualStyleBackColor = true;
+            MinusBtn.Click += MinusBtn_Click;
             // 
             // ClearBtn
             // 
@@ -250,6 +258,7 @@
             ClearBtn.TabIndex = 17;
             ClearBtn.Text = "Clear";
             ClearBtn.UseVisualStyleBackColor = true;
+            ClearBtn.Click += ClearBtn_Click;
             // 
             // OneBtn
             // 
